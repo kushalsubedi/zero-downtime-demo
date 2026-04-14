@@ -92,10 +92,10 @@ echo "Blue_Green Deployment complete!"
 ```
 ## What the deploy script does:
 
-Detects currently active container (app_blue or app_green)
-Builds and starts the new version
-Waits for the application to be ready
-Switches traffic by updating Docker network alias (app_active)
-Reloads Nginx
-Stops the old container
-Completes zero-downtime deployment
+- Detects currently active container (app_blue or app_green)
+- Builds and starts the new version
+- Waits for the application to be ready
+- Switches traffic by updating Docker network alias (app_active)
+- Reloads Nginx
+- Stops the old container
+- Completes zero-downtime deployment
